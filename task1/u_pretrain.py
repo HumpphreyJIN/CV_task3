@@ -3,8 +3,8 @@ import torch
 from torch import optim
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from task1_model import SimCLRStage1,Loss
-from task1_pre import PreDataset_CIFAR10,train_transform
+from model import SimCLRStage1,Loss
+from pre import PreDataset_CIFAR10,train_transform
 
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 save_path = "modelfile"
