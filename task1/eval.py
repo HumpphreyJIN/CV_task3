@@ -3,8 +3,8 @@ import torch.nn as nn
 import torchvision
 from torch.utils.data import DataLoader
 from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
-from task1_pre import PreDataset_CIFAR100,test_transform
-from task1_model import SimCLRStage2
+from pre import PreDataset_CIFAR100,test_transform
+from model import SimCLRStage2
 
 import matplotlib.pyplot as plt
 import seaborn as sns
