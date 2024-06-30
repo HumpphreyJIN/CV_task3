@@ -1,7 +1,7 @@
 import os
 import torch
 import torchvision
-from task1_pre import PreDataset_CIFAR100, train_transform, test_transform
+from pre import PreDataset_CIFAR100, train_transform, test_transform
 from torch import nn, optim
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
