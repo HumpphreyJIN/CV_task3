@@ -15,4 +15,4 @@ task2
 model 模型
 train 两个文件分别训练cnn和transformer
 eval_model 在测试集上加载权重品评估模型
-utils 一些处理工具
+utils 一些处理工具，包括加载数据和cutmix
